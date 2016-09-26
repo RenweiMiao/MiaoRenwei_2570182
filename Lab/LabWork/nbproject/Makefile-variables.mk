@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=problem_1
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/problem_1
+CND_ARTIFACT_NAME_Debug=labwork
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/labwork
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=problem1.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/problem1.tar
+CND_PACKAGE_NAME_Debug=labwork.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/labwork.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=problem_1
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/problem_1
+CND_ARTIFACT_NAME_Release=labwork
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/labwork
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=problem1.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/problem1.tar
+CND_PACKAGE_NAME_Release=labwork.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/labwork.tar
 #
 # include compiler specific variables
 #
