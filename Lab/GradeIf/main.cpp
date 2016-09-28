@@ -1,7 +1,7 @@
 /* 
  * File:   main.cpp
- * Author: Dr. Mark E. Lehr
- * Created on July 19, 2016, 9:07 AM
+ * Author: Renwei Miao
+ * Created on September 28, 2016, 8:34 AM
  * Purpose:  Input, output score by using if/else statement
  */
 
@@ -27,19 +27,11 @@ int main(int argc, char** argv) {
     cin>>score;
     
     //Process/Calculations Here
-    switch(score/10)
-    {
-        case 9:grade='A';
-        break;
-        case 8:grade='B';
-        break;
-        case 7:grade='C';
-        break;
-        case 6:grade='D';
-        break;
-        default: grade='F';
-    }
-    
+    if (score>=90)grade='A';
+    if(score<90&&score>=80)grade= 'B';
+    if(score<80&&score>=70)grade='C';
+    if(score<70&&score>=60)grade='D';
+    if(score<60)grade='F';
     
     //Output Located Here
     cout<<"Your grade = "<<grade<<" with a score = "<<score<<endl;

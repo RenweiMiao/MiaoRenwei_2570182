@@ -27,11 +27,19 @@ int main(int argc, char** argv) {
     cin>>score;
     
     //Process/Calculations Here
-    if (score>=90)grade='A';
-    if(score<90&&score>=80)grade= 'B';
-    if(score<80&&score>=70)grade='C';
-    if(score<70&&score>=60)grade='D';
-    if(score<60)grade='F';
+    switch(score/10)
+    {
+        case 9:grade='A';
+        break;
+        case 8:grade='B';
+        break;
+        case 7:grade='C';
+        break;
+        case 6:grade='D';
+        break;
+        default: grade='F';
+    }
+    
     
     //Output Located Here
     cout<<"Your grade = "<<grade<<" with a score = "<<score<<endl;
