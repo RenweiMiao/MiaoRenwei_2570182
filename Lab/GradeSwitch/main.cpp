@@ -1,6 +1,6 @@
 /* 
  * File:   main.cpp
- * Author: Dr. Mark E. Lehr
+ * Author: Renwei Miao
  * Created on July 19, 2016, 9:07 AM
  * Purpose:  Input, output score by using if/else statement
  */
