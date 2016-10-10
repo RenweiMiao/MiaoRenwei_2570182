@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
     cout<<"7. Type 7   for Problem G"<<endl;
     cout<<"8. Type 8   for Problem H"<<endl;
     cout<<"9. Type 9   for Problem I"<<endl;
-    cout<<"10.Type 10  for Problem J"<<endl;
+    cout<<"10. Type 10 for Problem J"<<endl;
     cin>>menuItm;
     
     //Input or initialize values Here
